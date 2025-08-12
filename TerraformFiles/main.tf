@@ -25,3 +25,5 @@ resource "aws_instance" "Instance1" {
   subnet_id = aws_subnet.public_subnet.id
  
 } 
+resource "aws_internet_gateway" "IG2" {
+  vpc_id = aws_vpc.MyVpc.id}
