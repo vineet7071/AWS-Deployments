@@ -26,4 +26,5 @@ resource "aws_instance" "Instance1" {
  
 } 
 resource "aws_internet_gateway" "IG2" {
-  vpc_id = aws_vpc.MyVpc.id}
+  vpc_id = aws_vpc.MyVpc.id
+  }
